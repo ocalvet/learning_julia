@@ -1,7 +1,5 @@
-function add(x,y)
-  x + y
-end
+include("utils.jl")
 
-a = add(9, 7)
+a = Utils.add(9, 7)
 
 print("Hello Julia $a")
