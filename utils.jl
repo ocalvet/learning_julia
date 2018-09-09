@@ -5,6 +5,11 @@ struct Adder
   y::Int64
 end
 function (a::Adder)()
-  a.x + x.y
+  a.x + a.y
 end
+struct Sum
+  x::Int64
+  y::Int64
+end
+(s::Sum)() = s.x + s.y
 end
